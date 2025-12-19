@@ -1,11 +1,17 @@
 *{
     font-family: "Comic Neue", cursive;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url('img/images.jpg');
 }
 p{
-    
+    color: rgb(49, 246, 0);
     text-align: center;
-    font-size: 30px;
-}
+    font-size: 80px;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);}
 
 .comic-neue-bold-italic {
   font-family: "Comic Neue", cursive;
@@ -24,13 +30,13 @@ p{
 
 
 .btn1{
-    width: 90px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     margin: 3px;
     background-color: rgb(243, 208, 220);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn1:hover{
@@ -39,13 +45,13 @@ p{
 }
 
 .btn2{
-    width: 90px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     margin: 3px;
     background-color: rgb(232, 224, 154);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn2:hover{
@@ -54,13 +60,13 @@ p{
 }
 
 .btn3{
-    width: 90px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     margin: 3px;
     background-color: rgb(161, 222, 195);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn3:hover{
@@ -69,13 +75,13 @@ p{
 }
 
 .btn4{
-    width: 90px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     margin: 3px;
     background-color: rgb(198, 175, 219);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn4:hover{
@@ -84,13 +90,13 @@ p{
 }
 
 .btn5{
-    width: 90px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     font-size: 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     margin: 3px;
     background-color: rgb(181, 235, 235);
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn5:hover{
@@ -99,10 +105,13 @@ p{
 }
 
 .calculadora{
-    text-align: center;
     border: 3px solid black;
     border-radius: 16px;
-    margin-left: 20%;
-    margin-right: 20%;
+   display: inline-block;
+   padding: 15px;
     background-color: rgb(220, 231, 240);
+}
+
+.cuerpo{
+    text-align: center;
 }
