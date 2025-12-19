@@ -110,6 +110,7 @@ p{
    display: inline-block;
    padding: 15px;
     background-color: rgb(220, 231, 240);
+    box-shadow: 6px 6px 12px black;
 }
 
 .cuerpo{
